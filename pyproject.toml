@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "sloth-cms"
+version = "0.1.0"
+description = "A Python-based headless CMS for lazy developers"
+authors = ["Alejandro Piad Morffis <apiad@apiad.net>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+streamlit = "^0.87.0"
+streamlit-pydantic = "^0.4.0"
+fastapi = "^0.68.1"
+uvicorn = "^0.15.0"
+pymongo = "^3.12.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.4"
+black = "^21.7b0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
